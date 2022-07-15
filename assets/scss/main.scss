@@ -8,3 +8,8 @@ body {
 }
 
 @import "./layout.scss";
+
+@include themable(zero, #394648, #69995d, #f8e9e9, #cbac88);
+@include themable(one, #5fad56, #f2c14e, #f78154, #4d9078);
+@include themable(two, #3c1518, #69140e, #a44200, #d58936);
+@include themable(three, #304d6d, #545e75, #63adf2, #a7cced);
