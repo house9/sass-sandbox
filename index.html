@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SASS sandbox</title>
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    <script>
+      function changeTheme(theme) {
+        document.body.className = theme;
+      }
+    </script>
+  </head>
+  <body class="zero">
+    <div class="container">
+      <div class="header">
+        <h1>Header</h1>
+      </div>
+      <div class="footer">
+        <ul>
+          <li><a onclick="changeTheme('one')">One</a></li>
+          <li><a onclick="changeTheme('two')">Two</a></li>
+          <li><a onclick="changeTheme('three')">Three</a></li>
+        </ul>
+      </div>
+      <div class="left">
+        <div>Left</div>
+      </div>
+      <div class="right">
+        <div>Right</div>
+      </div>
+    </div>
+  </body>
+</html>
